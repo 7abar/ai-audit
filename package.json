@@ -1,0 +1,18 @@
+{
+  "name": "ai-audit",
+  "version": "1.0.0",
+  "description": "AI-powered Solidity security auditor using Claude",
+  "type": "module",
+  "bin": { "ai-audit": "./src/index.js" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run"
+  },
+  "keywords": ["solidity", "security", "audit", "claude", "ai", "web3", "ethereum"],
+  "author": "7abar",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
